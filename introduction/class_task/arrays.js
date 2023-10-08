@@ -1,6 +1,7 @@
 let arr = new Array(5);
-let arr2 = [1, 2, 4, 4, 6];
+let arr2 = [1, 2, 4, 4, 6, "seven"];
 let arr3 = new Array (5, 4, 2, 5, 6);
+let arr4 = Array.of(8, 3);
 
 arr = [3, "4", 7, "3", 8, {name : "Daniel"}]
 arr.splice(2, 4, 5, 6, 7, 8)
