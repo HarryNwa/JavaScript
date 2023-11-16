@@ -1,0 +1,18 @@
+body {
+    border-color: rgb(238, 166, 166);
+    background-color: bisque;
+    background-image: url("modern_arhitecture-wallpaper-1280x1024.jpg");
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+textarea {
+    width: 20%;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+.redactr{
+    color: rgb(231, 223, 223);
+    background-color: aqua;
+}

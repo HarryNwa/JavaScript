@@ -1,0 +1,150 @@
+.navContainer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 1440px;
+    height: 84px;
+    flex-shrink: 0; 
+    background: var(--neutral-silver, #F5F7FA); 
+    
+}
+html, body{
+    margin: 10px;
+    align-items: center;
+}
+
+.logoNav{
+    display: flex;
+    width: 75px;
+    height: 64px; 
+    gap: 20px;
+    width: 131.49px;
+    height: 40.662px; 
+
+}
+.menuNav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px;  */
+
+    border-radius: 0%;
+    gap: 100px;
+    width: 1440px;
+    height: 84px;
+    flex-shrink: 0;
+
+}
+.loginNav{
+    display: flex;
+}
+.Login{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 20px; 
+    color: #4caf4c;
+    border: 5px solid white;
+    background-color: white;
+    width: 90px;
+    border-radius: 6px;
+}
+.Sign{
+    border: 5px solid #4caf4c;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px; 
+    width: 100px;
+    border-radius: 6px;
+    background: var(--brand-primary, #4CAF4F); 
+    color: aliceblue;
+
+}
+
+.lesson{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0; 
+
+}
+.midContainer{
+    display: flex;
+    padding: 96px 144px;
+    align-items: center;
+    gap: 104px;
+    align-self: stretch; 
+    background: var(--neutral-silver, #F5F7FA); 
+
+}
+.illustrate{
+    width: 391px;
+    height: 407px; 
+}
+
+.Button{
+    border: 5px solid #4caf4c;
+    background-color: #4caf4c;
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 14px 32px;
+    gap: 32px;
+
+}
+.grow{
+    align-self: stretch; 
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.paragraph{
+
+    align-self: stretch; 
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    
+}
+
+.thirdContainer{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.client{
+    align-self: stretch;
+    color: var(--neutral-d-grey, #4D4D4D);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    
+}
+.fortune{
+    align-self: stretch;
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.logoImages{
+    display: flex;
+    height: 98px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch; 
+}
