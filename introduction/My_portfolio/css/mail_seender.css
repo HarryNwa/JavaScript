@@ -1,0 +1,19 @@
+form{
+    max-height: 300px;
+    max-width: 40%;
+    border: 3px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px;
+    background-color: rgb(176, 154, 223);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

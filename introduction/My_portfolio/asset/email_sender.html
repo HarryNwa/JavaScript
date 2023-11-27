@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mail_seender.css">
+    <title>Mail Sender</title>
+</head>
+<body>
+    <h1>Mail Sender</h1>
+    <form action="mailto:harrynwa90@gmail.com" method="post">
+    <label for="">
+            Title:
+            <input type="text" name="title" id=""placeholder="Enter Your Tiltle">
+        </label>
+    <label for="">Full Name:
+            <input type="text" name="fullName" id="" placeholder="Enter Your First Name">
+        </label>
+        <label for="">Sender Email:
+            <input type="text" name="fullName" id="sender email" placeholder="Enter Your Email">
+        </label>
+        <label for="">
+            content
+            <textarea id="content" name="content" cols="30" rows="10" placeholder="Enter email content"></textarea>
+        </label>
+        <button type="submit" onclick="sendEmail()">Send Mail</button>
+    </form>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="mailer.js"></script>
+</body>
+</html>
